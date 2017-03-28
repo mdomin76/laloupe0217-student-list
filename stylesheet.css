@@ -1,0 +1,14 @@
+table#students {
+    border-spacing: 1em;
+    border-collapse: separate;
+    padding: 1em;
+    background-color: #b5b5b5;
+}
+
+td.bold {
+    font-weight: 500;
+}
+
+table#students>tr {
+    border-bottom: solid 1px #37474f;
+}

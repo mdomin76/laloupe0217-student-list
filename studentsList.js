@@ -14,11 +14,11 @@ request.onreadystatechange = function() {
             students.forEach(function(student) {
                 let tr = document.createElement('tr');
                 tr.innerHTML = `<td>${student.firstname}</td>
-                                <td>${student.lastname}</td>
+                                <td class="bold">${student.lastname}</td>
                                 <td>${student.sexe}</td>
                                 <td>${student.birthdate}</td>
                                 <td>${student.adress}</td>
-                                <td>${student['postal-code']}</td>
+                                <td class="bold">${student['postal-code']}</td>
                                 <td>${student.city}</td>
                                 <td>${student.github}</td>
                                 <td>${student.email}</td>`;
