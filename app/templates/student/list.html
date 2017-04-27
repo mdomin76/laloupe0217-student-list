@@ -1,0 +1,10 @@
+<a ui-sref="user.createStudent">Add new student</a>
+<table>
+    <tr ng-repeat="student in students | orderBy:'lastname'">
+      <button type="button"ng-click="bou()">bou</button>
+
+        <td>{{ student.firstname }}</td>
+        <td>{{ student.lastname }}</td>
+    </tr>
+
+</table>
